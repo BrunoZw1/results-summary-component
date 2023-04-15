@@ -45,7 +45,7 @@ h1 {
   height: 140px;
 
   background: hsla(256, 72%, 46%, 1);
-  background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 1) 100%);
+  background: linear-gradient(180deg, hsl(256deg 70.36% 46.22%) 0%, hsl(241deg 66.36% 55.53%) 100%);
   padding: 30px;
   margin-bottom: 20px;
 }
@@ -70,6 +70,88 @@ h1 {
   font-size: 16px;
   text-align: center;
   margin: 10px 40px 35px;
+}
+
+#score {
+  margin: 0 20px;
+}
+
+#score h2 {
+  color: hsl(224, 30%, 27%);
+  font-size: 18px;
+  margin: 20px 0 20px;
+}
+
+#reaction, #memory, #verbal, #visual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+  color: hsl(0, 0%, 64%);
+  font-weight: 700;
+}
+
+#reaction {
+  background-color: hsla(0, 100%, 67%, 5%);
+}
+
+#reaction span {
+  color: hsl(0, 100%, 67%);
+  font-weight: 700;
+}
+
+#memory {
+  background-color: hsla(39, 100%, 56%, 5%);
+}
+
+#memory span {
+  color: hsl(39, 100%, 56%);
+  font-weight: 700;
+}
+
+#verbal {
+  background-color: hsla(166, 100%, 37%, 5%);
+}
+
+#verbal span {
+  color: hsl(166, 100%, 37%);
+  font-weight: 700;
+}
+
+#visual {
+  background-color: hsl(234, 85%, 45%, 5%);
+}
+
+#visual span {
+  color: hsl(234, 85%, 45%);
+  font-weight: 700;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#score b {
+  color: hsl(224, 30%, 27%);
+}
+
+#score button {
+  width: 100%;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+
+  margin: 10px 0 25px;
+  cursor: pointer;
 }
 
 
