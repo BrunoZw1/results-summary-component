@@ -160,9 +160,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  body {
-  }
-
+  
   main {
     display: flex;
     flex-direction: row;
