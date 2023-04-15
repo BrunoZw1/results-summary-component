@@ -16,7 +16,6 @@ body {
 
 main {
   max-width: 375px;
-  min-height: 100vh;
 }
 
 #result {
@@ -154,4 +153,31 @@ h1 {
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  body {
+  }
 
+  main {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+  }
+
+  #result {
+    width: 50%;
+    border-radius: 30px;
+    
+  }
+
+  #result p {
+    font-size: 18px;
+  }
+
+  #score {
+    width: 50%;
+    margin: 0;
+    padding: 0 30px;
+    box-shadow: 7px 10px 7px -1px rgba(234, 235, 246, 1);
+    border-radius: 0 30px 30px 0;
+  }
+}
